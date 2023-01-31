@@ -1,5 +1,12 @@
 body{
     margin: 0;
-    background: lightblue;
     text-align: center;
+}
+header{
+    background: rgb(9, 34, 114);
+    padding: 70px;
+}
+header h1{
+    color: white;
+    font-size: 60px;
 }
