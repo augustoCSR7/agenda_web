@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     text-align: center;
@@ -19,5 +22,68 @@ body{
     font-size: 35px;
 }
 #req {
-    font-size: 25px;
+    font-size: 35px;
+}
+h2{
+    font-size: 30px;
+}
+.row{
+    padding: 0 20px;
+    display: table;
+}
+section{
+    float: left;
+    width: 75%;
+}
+aside{
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+#img2, #img3, #img5 {
+    width: 100%;
+}
+#botaoIni{
+    text-decoration: none;
+    color: black;
+    border: 5px solid white;
+    padding: 10px 10px;
+    border-radius: 12px;
+    background-color: white;
+}
+#list1, #list2{
+    text-align: left;
+    font-size: 28;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+#topicos{
+    list-style-type: none;
+    text-align: left;
+    padding: 0%;
+}
+#topicos a{
+    text-decoration: none;
+    color: black;
+}
+#topicos li{
+    border-bottom: 1px solid #ddd;
+    padding: 8px 16px;
+}
+#link-topo{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(9, 34, 114);
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 3px 3px 10px #333;
 }
