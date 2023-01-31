@@ -2,11 +2,22 @@ body{
     margin: 0;
     text-align: center;
 }
-header{
+#home {
     background: rgb(9, 34, 114);
-    padding: 70px;
+    padding: 30px;
 }
-header h1{
+#home h1 {
     color: white;
     font-size: 60px;
+}
+#doc {
+    background: rgb(9, 34, 114);
+    padding: 2px;
+}
+#doc h1 {
+    color: white;
+    font-size: 35px;
+}
+#req {
+    font-size: 25px;
 }
